@@ -8,7 +8,11 @@ public class Employee {
     public double getFixedSalary() { return fixedSalary; }
 
     public double calculateBonus(Department department) {
+        if (department.reachedTarget() == true) {
             return fixedSalary * 10 / 100;
+        } else {
+            return 0;
+        }
     }
 
     public double calculateTotalSalary(Department department) {
