@@ -4,7 +4,7 @@ public class Department {
 
     public double getTargetValue() { return targetValue; }
     
-    public double getAchivedTargetValue() { return achievedTargetValue; }
+    public double getAchievedTargetValue() { return achievedTargetValue; }
 
     public Department(double targetValue, double achievedTargetValue) {
         this.targetValue = targetValue;
