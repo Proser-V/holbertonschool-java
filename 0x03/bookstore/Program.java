@@ -34,8 +34,8 @@ public class Program {
 
                 try {
                         GoldEditionBook goldEditionBook2 = new GoldEditionBook(
-                                        "Alice’s Adventures in Wonderland",
-                                        "Lewis Carroll",
+                                        "Alice's Adventures in Wonderland",
+                                        "LewisCarroll",
                                         21.88f);
 
                         System.out.printf("Title: %s - Author: %s - Price: %.2f\n",
@@ -48,7 +48,7 @@ public class Program {
 
                 try {
                         Book book2 = new Book(
-                                        "Dracula",
+                                        "D",
                                         "Bram Stoker",
                                         15.99f);
 

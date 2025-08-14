@@ -31,7 +31,7 @@ public class Book {
 
     public float getPrice() { return price; }
     public void setPrice(float price) throws InvalidBookException {
-        if (price == 0) {
+        if (price <= 0) {
             throw new InvalidBookException("Invalid book price");
         } else {
             this.price = price;
